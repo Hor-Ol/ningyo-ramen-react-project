@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ningyo-ramen-react-project/static/css/main.a433d0a4.css",
+    "main.css": "/ningyo-ramen-react-project/static/css/main.20619e5e.css",
     "main.js": "/ningyo-ramen-react-project/static/js/main.92988893.js",
     "static/media/side-dish-4-o.jpg": "/ningyo-ramen-react-project/static/media/side-dish-4-o.f09ffd8521ada300bf32.jpg",
     "static/media/ramen-photo-1-o.jpg": "/ningyo-ramen-react-project/static/media/ramen-photo-1-o.c6eb84628d247be8e18b.jpg",
@@ -11,11 +11,11 @@
     "static/media/menu-tantanmen-o.jpg": "/ningyo-ramen-react-project/static/media/menu-tantanmen-o.86b48b7ee2d24e059695.jpg",
     "static/media/menu-oolong-tea-o.jpg": "/ningyo-ramen-react-project/static/media/menu-oolong-tea-o.e18bf9b1da865ad557b1.jpg",
     "index.html": "/ningyo-ramen-react-project/index.html",
-    "main.a433d0a4.css.map": "/ningyo-ramen-react-project/static/css/main.a433d0a4.css.map",
+    "main.20619e5e.css.map": "/ningyo-ramen-react-project/static/css/main.20619e5e.css.map",
     "main.92988893.js.map": "/ningyo-ramen-react-project/static/js/main.92988893.js.map"
   },
   "entrypoints": [
-    "static/css/main.a433d0a4.css",
+    "static/css/main.20619e5e.css",
     "static/js/main.92988893.js"
   ]
 }
