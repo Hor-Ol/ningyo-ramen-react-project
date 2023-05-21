@@ -1,6 +1,6 @@
 # **Ningyo Ramen**
 
-(![image](https://github.com/Hor-Ol/ningyo-ramen-react-project/assets/19506953/1a1b7247-247c-4b55-a5ec-c3546fc9a971))
+![image](https://github.com/Hor-Ol/ningyo-ramen-react-project/assets/19506953/1a1b7247-247c-4b55-a5ec-c3546fc9a971)
 
 ## :thought_balloon: Idea
 
