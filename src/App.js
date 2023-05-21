@@ -1,6 +1,10 @@
 // REACT & REDUX IMPORTS:
 import React, { useEffect, useState } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  createHashRouter,
+  RouterProvider,
+} from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 // IMPORTED PAGE ELEMENTS:
@@ -16,7 +20,7 @@ import { cartActions } from "./store/cartSlice";
 import { uiActions } from "./store/uiSlice";
 
 // Creating router:
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <MainLayout />,
@@ -29,6 +33,20 @@ const router = createBrowserRouter([
     ],
   },
 ]);
+
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <MainLayout />,
+//     children: [
+//       { path: "", element: <Welcome /> },
+//       { path: "about", element: <About /> },
+//       { path: "menu", element: <Menu /> },
+//       { path: "contact", element: <Contact /> },
+//       { path: "reviews", element: <Reviews /> },
+//     ],
+//   },
+// ]);
 
 function App() {
   const dispatch = useDispatch();
