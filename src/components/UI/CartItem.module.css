@@ -1,0 +1,37 @@
+.item {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin: 0.8rem 0;
+}
+
+.price,
+.itemprice,
+.quantity {
+  font-size: 1.6rem;
+}
+
+.button {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0.5rem;
+  background-color: #8d1d1d;
+  color: #fff;
+
+  border-radius: 9px;
+  border-style: none;
+  cursor: pointer;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8rem;
+
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.button:hover {
+  background-color: #c41818;
+}

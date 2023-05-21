@@ -1,0 +1,23 @@
+.welcome-background-img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../imgs/atmosphere/atmosphere-photo-4-o.jpg");
+}
+
+.welcome-background-img-small {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../imgs/food/ramen-photo-1-o.jpg");
+}

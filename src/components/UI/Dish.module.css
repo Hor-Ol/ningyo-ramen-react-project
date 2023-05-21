@@ -1,0 +1,82 @@
+.menu-dish-container {
+  width: 90%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 6fr 1.5fr 0.5fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.menu-dish-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2.4rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.menu-dish-name,
+.menu-dish-price {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: underline 0.8rem #8d1d1d;
+  transition: 0.3s ease-out;
+}
+
+.menu-dish-container:hover .menu-dish-name,
+.menu-dish-container:hover .menu-dish-price {
+  text-decoration: underline 0.8rem #c41818;
+}
+
+.menu-dish-name {
+  grid-column: 2/3;
+}
+
+.menu-dish-price {
+  grid-column: 3/4;
+  justify-self: center;
+}
+
+.menu-dish-description,
+.menu-dish-ingridients,
+.menu-dish-suitable {
+  font-size: 1.8rem;
+  grid-column: 2/4;
+  padding-right: 0.8rem;
+}
+
+.menu-dish-description {
+  grid-row: 2/3;
+}
+
+.menu-dish-ingridients {
+  grid-row: 3/4;
+}
+
+.menu-dish-suitable {
+  grid-row: 4/5;
+}
+
+.menu-dish-add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1/5;
+  grid-column: 4/5;
+  justify-self: center;
+  width: 5rem;
+  height: 5rem;
+  background-color: #8d1d1d;
+  color: #fff;
+  border-radius: 9px;
+  border-style: none;
+  cursor: pointer;
+  font-size: 2.5rem;
+  overflow: hidden;
+  transition: 0.3s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menu-dish-add-button:hover {
+  background-color: #c41818;
+}

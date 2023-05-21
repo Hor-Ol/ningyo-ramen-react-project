@@ -1,0 +1,35 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2.4rem;
+  border-radius: 9px;
+  margin: 2.4rem 0;
+}
+
+.review-title {
+  font-size: 1.8rem;
+  margin: 0 0 0.8rem 0;
+  text-decoration: underline 0.8rem #8d1d1d;
+}
+
+.review-name,
+.review-text,
+.review-date,
+.review-text {
+  font-size: 1.6rem;
+  margin: 0.8rem 0;
+  text-align: justify;
+}
+
+.review-text {
+  display: block;
+  margin: 0.4rem 0;
+}
+
+.review-name-date-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
