@@ -22,3 +22,4 @@ The project was made upon finishing ≈60% of React course and had the goal to s
 
 1. The further optimization and refactoring.
 2. For the use of this project local storage was used to store cart, orders and reviews data for the purposes of saving trafic on cloud services like e.g. Firebase. However, the mentioned data could also be send to the cloud service or back-end.
+3. Fix minor styles incohesions between PC and small devices versions (logo, scrolling while module is open, burger button behind module).
