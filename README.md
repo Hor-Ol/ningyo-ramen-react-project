@@ -21,5 +21,5 @@ The project was made upon finishing ≈60% of React course and had the goal to s
 ## :mag: Things to Improve
 
 1. The further optimization and refactoring.
-2. For the use of this project local storage was used to store cart, orders and reviews data for the purposes of saving trafic on cloud services like e.g. Firebase. However, the mentioned data could also be send to the cloud service or back-end.
+2. For the use of this project local storage was used to store cart, orders and reviews data for the purposes of saving trafic on cloud services like e.g. Firebase as well as to avoid collecting data of site visitors. However, the mentioned data could also be send to the cloud service or back-end.
 3. Fix minor styles incohesions between PC and small devices versions (~~logo~~ (done), scrolling while module is open (uses :has() selector that is not supported by all browsers yet), ~~burger button behind module~~ (done)).
